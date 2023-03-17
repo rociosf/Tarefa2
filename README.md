@@ -123,4 +123,22 @@ git branch -av
 
 
 
+# COMANDOS QUE NON SE MENCIONARON ANTERIORMENTE:
 
+ `git config --global color.ui auto` Habilita o coloreado na saída dos comandos de Git na terminal.
+
+`git config --list` Utilízase para ver a listaxe de todas as configuracións de Git que están en uso.
+
+`git commit --amend -m "blablabla"` Úsase para facer cambios no commit máis recente.
+
+`git remote remove origin` Elimina o vínculo entre o repositorio local e o repositorio remoto "origin".
+
+`git clean -f` Elimina arquivos que non están sendo seguidos por Git e que non se atopan na staging área.
+
+`git commit -a` Só crea commits cos cambios realizados que xa están sendo seguidos por git; non engade ficheiros novos.
+
+`git log --graph --all --oneline` Mostra o historial de commits do repositorio nun formato atractivo e fácil de ler.
+
+`git push github master` (é unha abreviatura que se pode usar para referirse a unha URL de GitHub específica que se configurase previamente). Envía os cambios realizados na rama `master` do repositorio local á rama `master` do repositorio remoto correspondente.
+
+`git push origin master` (configurouse como "origin" ó clonar o repositorio local). Envía os cambios realizados na rama `master` do repositorio local á rama `master` do repositorio remoto correspondente.
