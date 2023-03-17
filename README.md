@@ -78,3 +78,11 @@ Facemos push con `git push -u origin main`
 `git checkout (nome_branch)` cambiará a rama actual á nombrada.
 
 `git merge (nombre_branch)` fusionará a rama especificada coa actual.
+
+
+# Comprobar estado do repositorio.
+
+`git status` mostra os estados dos arquivos, as súas modificacións e sen seguemento ademais dos que si teñen seguemento pero non están confirmados.
+```
+git status
+```
