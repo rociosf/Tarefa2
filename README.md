@@ -86,3 +86,12 @@ Facemos push con `git push -u origin main`
 ```
 git status
 ```
+
+
+# Historial de confirmacións.
+
+`git log` úsase para mostrar a historia rexistrada alcanzable dun proxecto dende a máis recente ata a máis antiga.
+Tamén se usa para mostrar as diferencias entre dúas ou máis ramas a nivel commit.
+
+Xunto ó README.md engadimos unha imaxe poñendo un exemplo con `git log` 
+
