@@ -116,3 +116,11 @@ git checkout nome
 git merge nome
 ```
 
+Consulta das ramas existestes con `git branch -av`.
+```
+git branch -av
+```
+
+
+
+
