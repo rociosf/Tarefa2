@@ -95,3 +95,24 @@ Tamén se usa para mostrar as diferencias entre dúas ou máis ramas a nivel com
 
 Xunto ó README.md engadimos unha imaxe poñendo un exemplo con `git log` 
 
+
+
+# Creando ramas.
+
+`git branch Nombre`.
+```
+git branch nome
+```
+
+Para poder traballar nesta rama necesitamos `git checkout nome` (así se cambia dunha rama a outra).
+```
+git checkout nome
+```
+
+# Facendo merge en ramas.
+
+Ó facer merge en Git crea un commit "especial" que ten dous pais diferentes.
+```
+git merge nome
+```
+
